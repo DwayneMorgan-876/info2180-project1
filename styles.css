@@ -1,4 +1,4 @@
-/* Add your CSS to this file */
+
 html{
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 	font-size: 18px;
@@ -49,10 +49,6 @@ header a:hover{
 	cursor:pointer;
 }
 
-/*.hover.li{
-color:#5A67D8;
-}*/
-/*overview section*/
 section.overview-hero>.container{
 	display: grid;
 	grid: "box1 box2 box3";
@@ -202,7 +198,11 @@ section.newsletter>div.container>form>button.btn{
 	width: 130px;
 	float:left;
 	margin-left: 15px;
+}
 
+section.newsletter>div.container>div.message{
+	padding-top: 80px;
+	text-align: left;
 }
 
 

@@ -1,24 +1,25 @@
-/* Add your JavaScript to this file */
+
 window.onload = function newsletter(){
 
-	let form=document.getElementsByTagName('form').item(0);
-	form.onsubmit=function newsletter(){
-		return addEmail(this);
+	let button=document.getElementsByTagName('form')[0];
+	button.onsubmit=function newsletter(){
+		return subMessage(this);
 	};
 
 }
 
-function addEmail(formData){
-	let newEmail= formData.email.value;
+function subMessage(formInfo){
+	var newMessage= email.value;	
 	var messageElement=document.querySelector('.message');
 	var message = null;
 
-	if(newEmail){
-		message= "Thank you! Your email Address $(newEmail) has been added to your mailing list";
+	if(newMessage){
+		message= ("Thank you! Your email address "+ newMessage + " has been added to your mailing list!");
 	} else{
-		message = "Please enter a valid email";
+		message = ("Please enter a valid email");
 	}
 
 	messageElement.innerHTML = message;
 	return false;
+
 }
