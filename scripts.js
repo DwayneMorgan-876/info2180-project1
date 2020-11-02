@@ -16,7 +16,7 @@ function subMessage(formInfo){
 	if(newMessage){
 		message= ("Thank you! Your email address "+ newMessage + " has been added to your mailing list!");
 	} else{
-		message = ("Please enter a valid email");
+		message = ("Please enter a valid email address.");
 	}
 
 	messageElement.innerHTML = message;
