@@ -167,25 +167,31 @@ padding: 50px;
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom:120px;
+	padding:5em;
 }
 
 
 input{
 height: 50px;
-width: 250px;
+width: 270px;
 float:left;
 border-radius:5px;
+}
 
+input, .placeholder{
+padding-left:10px; 
 }
 
 section.newsletter>div.container>p{
 	text-align: left;
+
 }
 
 section.newsletter{
 	background-color: #48BB78;
 	color:white;
 	align-items: center;
+
 }
 
 section.newsletter>div.container>form>button.btn{
@@ -195,7 +201,7 @@ section.newsletter>div.container>form>button.btn{
 	border-radius: 5px;
 	color:white;
 	height:54px;
-	width: 130px;
+	width: 140px;
 	float:left;
 	margin-left: 15px;
 }
